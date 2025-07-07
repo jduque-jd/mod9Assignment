@@ -1,0 +1,10 @@
+/**
+ * ProfessionalPants implements the interface Pants in order to overwrite wear from the Pants interface
+ * This is overwritten to output a message about the pants
+ */
+public class ProfessionalPants implements Pants {
+    @Override
+    public void wear() {
+        System.out.println("Wearing professional pants");
+    }
+}
